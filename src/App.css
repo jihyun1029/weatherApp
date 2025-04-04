@@ -1,8 +1,9 @@
 body {
-    background: url(https://png.pngtree.com/thumb_back/fh260/background/20220313/pngtree-blue-sky-and-white-clouds-in-sunny-weather-in-summer-image_1008803.jpg);
+    background: url(https://i.pinimg.com/originals/7f/63/1e/7f631e577ed5e5ffbbce726f8ec03489.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .container {
@@ -18,4 +19,21 @@ body {
     padding: 50px;
     border-radius: 30px;
     background: azure;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.cityBtn {
+    width: 500px;
+    height: 80px;
+    background: #000;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 76px;
+
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-wrap: nowrap;*/
+    /*align-items: center;*/
 }
