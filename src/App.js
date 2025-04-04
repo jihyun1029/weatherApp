@@ -20,7 +20,7 @@ function App() {
   const cities = ['paris', 'new york', 'tokyo', 'seoul'];
 
   const getCurrentLocation = () => {
-    console.log("getCurrentLocation");
+    // console.log("getCurrentLocation");
     navigator.geolocation.getCurrentPosition((position) => {
       let lat = position.coords.latitude;
       let lon = position.coords.longitude;
